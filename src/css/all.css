@@ -1,0 +1,13 @@
+@import url(/src/css/header/header.css);
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1600px;
+    padding: 30px 160px;
+  }
+
+a {
+    text-decoration: none;
+}
+  
