@@ -1,3 +1,4 @@
 .header__container:first-child {
     background-color: black;
+    padding-bottom: 26px;
 }

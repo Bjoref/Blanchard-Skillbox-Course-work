@@ -10,4 +10,7 @@
 a {
     text-decoration: none;
 }
-  
+
+body {
+  font-family: 'OpenSans', sans-serif;
+}
