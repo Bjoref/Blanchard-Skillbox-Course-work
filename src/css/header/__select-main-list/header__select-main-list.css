@@ -1,0 +1,4 @@
+.header__select-main-list {
+    display: flex;
+    justify-content: space-between;
+}

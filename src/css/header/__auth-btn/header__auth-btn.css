@@ -1,0 +1,9 @@
+.header__auth-btn {
+    color: white;
+    background-color: transparent;
+    border: none;
+    padding-left: 30px;
+    background-image: url(/src/img/header/__auth-btn/header__auth-btn-arrow.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+}
