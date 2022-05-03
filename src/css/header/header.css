@@ -6,7 +6,19 @@
 @import url(/src/css/header/__nav-item/header__nav-item.css);
 @import url(/src/css/header/__nav-link/header__nav-link.css);
 @import url(/src/css/header/__auth-btn/header__auth-btn.css);
+@import url(/src/css/header/__select-item/header__select-item.css);
 @import url(/src/css/header/__select-main-list/header__select-main-list.css);
 @import url(/src/css/header/__select-list/header__select-list.css);
 @import url(/src/css/header/__select-list-item/header__select-list-item.css);
 @import url(/src/css/header/__select-button/header__select-button.css);
+@import url(/src/css/header/__second-row/header__second-row.css);
+@import url(/src/css/header/__searcher/header__searcher.css);
+@import url(/src/css/header/__searcher-input/header__searcher-input.css);
+
+.header:first-child {
+    background-color: black;
+}
+
+.header:nth-child(2) {
+    background-color: rgba(0, 0, 0, 0.4);
+}

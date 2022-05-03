@@ -1,4 +1,8 @@
-.header__container:first-child {
-    background-color: black;
-    padding-bottom: 26px;
+.header__container {
+    padding-left: 25px;
+    padding-bottom: 27px;
+}
+
+.header__container_second-layout {
+    padding: 7px 8px 6px 24px;
 }

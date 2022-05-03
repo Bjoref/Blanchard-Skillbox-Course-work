@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blanchard</title>
+    <link rel="icon" href="/src/img/favicon/favicon.svg" type="image/x-icon">
 
     <link rel="stylesheet" href="src/css/normalize.css">
     <link rel="stylesheet" href="src/css/all.css">
@@ -59,10 +60,12 @@
                 </button>
             </div>
         </div>
-        <div class="container header__container">
+    </header>
+    <header class="header">
+        <div class="container header__container header__container_second-layout">
             <div class="header__second-row">
                 <ul class="header__select-main-list">
-                    <div class="header__selectors-item">
+                    <div class="header__select-item">
                         <button class="header__select-button" id="1">
                             Реализм
                         </button>
@@ -84,7 +87,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="header__selectors-item">
+                    <div class="header__select-item">
                         <button class="header__select-button" id="2">
                             Импрессионизм
                         </button>
@@ -106,7 +109,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="header__selectors-item">
+                    <div class="header__select-item">
                         <button class="header__select-button" id="3">
                             Постимпрессионизм
                         </button>
@@ -128,7 +131,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="header__selectors-item">
+                    <div class="header__select-item">
                         <button class="header__select-button" id="4">
                             Авангард
                         </button>
@@ -150,7 +153,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="header__selectors-item">
+                    <div class="header__select-item">
                         <button class="header__select-button" id="5">
                             Футуризм
                         </button>
@@ -173,7 +176,10 @@
                         </ul>
                     </div>
                 </ul>
-                <div class="header__searcher"></div>
+                <div class="header__searcher">
+                    <input type="text" id="header__searcher-input" class="header__searcher-input" name = "header__searcher-input" placeholder="Поиск по сайту"/>
+
+                </div>
             </div>
         </div>
     </header>

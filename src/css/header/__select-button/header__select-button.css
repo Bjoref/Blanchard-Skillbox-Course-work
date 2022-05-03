@@ -1,4 +1,32 @@
 .header__select-button {
     border: none;
     background-color: transparent;
+    color: white;
+    padding: 0;
+    padding-right: 20px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.header__select-button::after {
+    content: '';
+    display: inline-block;
+    width: 12px;
+    height: 7px;
+    margin-left: -2px;
+    padding-bottom: 2px;
+    background-image: url(/src/img/header/__select-button/header__select-button_arrow.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 100% auto;
+    transition: all 0.2s ease-in-out;
+}
+
+.header__select-button_flipped-arrow::after {
+    content: '';
+    transform: rotate(180deg);
+    transition: all 0.2s ease-in-out;
 }

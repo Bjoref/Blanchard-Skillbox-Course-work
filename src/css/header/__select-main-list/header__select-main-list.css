@@ -1,4 +1,6 @@
 .header__select-main-list {
     display: flex;
+    width: 66%;
     justify-content: space-between;
+    padding: 0;
 }

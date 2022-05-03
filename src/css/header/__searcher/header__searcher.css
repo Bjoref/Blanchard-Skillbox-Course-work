@@ -1,0 +1,7 @@
+.header__searcher {
+    padding-left: 30px;
+    background-image: url(/src/img/header/__searcher/searcher-icon.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain;
+} 

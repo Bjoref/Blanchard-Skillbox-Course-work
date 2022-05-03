@@ -1,0 +1,18 @@
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1630px;
+    padding: 30px 0;
+  }
+
+a {
+    text-decoration: none;
+}
+
+body {
+  font-family: 'OpenSans', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
